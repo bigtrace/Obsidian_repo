@@ -1,35 +1,39 @@
 # 🌐 Global Market News Digest — 2026-03-22
-> *Generated: 2026-03-22 09:29 SGT | Sources: Bloomberg, WSJ, BBC, CNBC, NYT, 财联社, EastMoney, Sina*
+> *Generated: 2026-03-22 16:00 SGT | Sources: Bloomberg, WSJ, BBC, CNBC, NYT, 财联社, EastMoney, Sina*
 
 ---
 
 ## 🌍 Geopolitical
 🔵 **EN**
-- **[03-22 07:38 Bloomberg Markets]** Hormuz Strait Closure Forcing Trump, Importers to Seek Solution
-- **[03-22 07:19 Bloomberg Markets]** Iran Threatens to Hit Key Infrastructure After Trump’s Ultimatum
+- **[03-22 14:13 Bloomberg Markets]** Bessent Says US to Press Ahead in Iran War With Hormuz in Sights
+- **[03-22 14:05 Bloomberg Markets]** Ian Bremmer says Iran War's Not "Priced into the Markets" Yet
+- **[03-22 14:00 Bloomberg Markets]** Options Market Reverts to 2022 Playbook for Iran War Risks
+- **[03-22 13:53 Bloomberg Markets]** Rep. Greg Steube: I Don't Want to See Our Troops on the Ground
+- **[03-22 13:33 Bloomberg Markets]** Rep. Ivey: Let's Have a War Powers Act Debate
 - **[03-22 04:42 NYT Business]** As War Disrupts India’s Gulf Ties, Economy Faces ‘New Broadside’
-- **[03-22 03:16 Bloomberg Markets]** Japan Says Not Considering Unilateral Talks With Iran on Hormuz
-- **[03-22 00:42 NYT Business]** News Outlets Pressure Pentagon to Restore Access After Court Ruling
-- **[03-22 00:05 Bloomberg Markets]** Trump Gives Iran 48 Hours on Hormuz, Threatens Power Plants
 🔴 **中文**
-- **[03-22 17:28 Sina快讯]** 【伊朗称在南部沿海拦截一架F-15战机】伊朗军队当地时间22日表示，数小时前，一架敌方F-15战机在伊朗南部沿海及霍尔木兹岛附近空域遭到伊朗防空部队地对空导弹的拦截与打击。针对该战机后续情况的调查正在进行中。（央视新闻）
-- **[03-22 17:27 财联社(CLS)]** 【风口研报·公司】多个“算电协同”项目持续推进，这家公司布局绿色智算园区+储能电站+液冷技术、逐步向平台型服务商发展，积极同国内外各个互联网公司进行合作；最高10倍价差！地缘冲突驱动该产品迎周期拐点
-- **[03-22 17:26 财联社(CLS)]** 以军承认未能拦截两枚伊朗导弹 称属于“偶发”事件
-- **[03-22 17:25 财联社(CLS)]** 伊朗使用新型无人机打击以色列本-古里安机场
-- **[03-22 17:21 EastMoney]** 特朗普团队已密谋与伊朗“和谈” 细节曝光
-  _【特朗普团队已密谋与伊朗“和谈” 细节曝光】美国和以色列对伊朗的军事打击至今已持续超过三周。美国阿克西奥斯新闻网站21日援引匿名消息源报道，特朗普政府已开始谋划与伊朗“和谈”事宜，正经由第三方“传话”进行初步磋商；特朗普的特使威特科夫、女婿库什纳参与其中。_
-- **[03-22 17:15 EastMoney]** 伊朗武装部队称已从防御转为进攻
-  _【伊朗武装部队称已从防御转为进攻】伊朗武装部队哈塔姆·安比亚中央司令部司令阿卜杜拉希今天（3月22日）表示，伊朗武装部队保卫伊朗的战略已从防御转为进攻。阿卜杜拉希说，伊朗武装部队利用年轻科学家们的能力，生产并制造了先进的装备和武器，伊朗将在战场上为敌人创造更多“惊喜”。_
+- **[03-22 23:49 EastMoney]** 伊朗逮捕25名涉嫌从事破坏活动的人员
+  _【伊朗逮捕25名涉嫌从事破坏活动的人员】当地时间22日，伊朗情报部门发布声明表示，在该国多地开展行动逮捕25名涉嫌从事破坏活动的人员。_
+- **[03-22 23:41 Sina快讯]** 【伊朗逮捕25名涉嫌从事破坏活动的人员】当地时间22日，伊朗情报部门发布声明表示，在该国多地开展行动逮捕25名涉嫌从事破坏活动的人员。声明称，其中23人涉嫌向境外相关媒体机构传递有关军事设施及安全力量部署的信息。上述人员还涉嫌策划针对安全机...
+- **[03-22 23:18 财联社(CLS)]** 伊朗总统回应美方威胁：将在战场上坚决对抗
+- **[03-22 23:07 财联社(CLS)]** 本轮美以伊冲突以来 伊朗已有210名儿童死亡
 
 ## 🇺🇸 United States
 🔵 **EN**
-- **[03-21 19:00 Bloomberg Markets]** State Street, Voya Seek Shelter From Default Risk
-- **[03-21 16:59 NYT Business]** Amazon MGM Gets a Much-Needed Hit With ‘Project Hail Mary’
-- **[03-21 15:00 CNBC Top News]** SEC Commissioner Hester Peirce on ETFs: 'We want to work with people on new products'
+- **[03-22 15:10 NYT Business]** Amazon MGM Gets a Much-Needed Hit With ‘Project Hail Mary’
+🔴 **中文**
+- **[03-22 23:43 EastMoney]** 美国农业部长布鲁克·罗林斯：将公布更多与增加化肥运输量相关的公告
+  _美国农业部长布鲁克·罗林斯表示，将公布更多与增加化肥运输量相关的公告。_
+
+## 🇪🇺 Europe
+🔵 **EN**
+- **[03-22 13:30 Bloomberg Markets]** Hedge Fund Fermat Pushes Back Against EU Plan to Limit Retail Investors’ Access to Catastrophe Bonds
 
 ## 🇨🇳 China & Hong Kong
+🔵 **EN**
+- **[03-22 11:27 CNBC Top News]** The AI race between China and the U.S. heats up. These stocks could be winners, Bernstein says
 🔴 **中文**
-- **[03-22 17:29 Sina快讯]** 【工信部部长李乐成：加强未来产业科技供给 推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、6G等领域攻关突破】工信部部长李乐成出席中国发展高层论坛2026年年会并围绕“技术创新与未来产业发展”作主题发言。李乐成表示，工业和信息化...
+- **[03-22 23:54 Sina快讯]** 【汤加发生6.2级地震】据美国地质调查局地震信息网消息，格林尼治时间3月22日15时28分（北京时间3月22日23时28分），汤加希希福附近海域发生6.2级地震，震中位于南纬15.50度、西经172.27度，震源深度79.7公里。
 
 ---
-*31 items from 7 sources | Last 24h | Not investment advice*
+*30 items from 7 sources | Last 24h | Not investment advice*
