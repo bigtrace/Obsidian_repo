@@ -1,5 +1,5 @@
 # ⚡ Electrification Theme Digest — 2026-03-22
-> *Generated: 2026-03-22 16:20 SGT | For Equity PMs | Themes: Data Centers, EV, Battery, Grid, Minerals*
+> *Generated: 2026-03-22 17:20 SGT | For Equity PMs | Themes: Data Centers, EV, Battery, Grid, Minerals*
 
 ---
 
@@ -8,15 +8,15 @@
 - 🔵 **[03-22 14:46 Electrek]** Tesla and SpaceX announce $25B ‘Terafab’ chip factory — here’s why it reeks of desperation
   _Tesla_
   _Tesla and SpaceX have unveiled “Terafab,” a joint $25 billion chip fabrication facility in Austin, Texas, that Elon Musk claims will produce 1 terawatt of computing power annually...._
+- 🔵 **[03-22 17:03 DC Dynamics]** Iran threatens to attack energy and IT infrastructure if Trump targets power plants
+  _Amazon/AWS, DataCenter_
+  _After AWS data centers were hit early on in the war_
 - 🔵 **[03-22 04:50 Bloomberg Tech]** Musk Says Tesla, SpaceX, xAI Chip Project to Kick Off in Texas
   _DataCenter, Tesla_
   _Elon Musk said his Terafab project &mdash; a grand plan to eventually manufacture his own chips for robotics, artificial intelligence and space data centers &mdash; will be built i..._
 - 🔵 **[03-21 17:00 OilPrice.com]** AI Energy Demand Is Fueling a High-Stakes Bet on Nuclear Fusion
   _Nuclear_
   _Meeting the runaway energy demand of the artificial intelligence boom will require energy buildout and innovation at an unprecedented scale. After decades of plateaued energy growt..._
-- 🔵 **[03-21 17:00 OilPrice.com]** Can Carbon Credits Clean Up Big Tech’s AI-Fueled Emissions Surge?
-  _Nuclear_
-  _As multiple large-scale data centres are developed around the globe, Big Tech is investing heavily in a range of energy projects to power its new facilities, from renewable energy ..._
 - 🔵 **[03-21 16:00 DC Dynamics]** DHL expands North American logistics infrastructure to meet data center demand
   _DataCenter_
   _Ten warehouse sites to go live this year_
@@ -47,6 +47,9 @@
 
 ## 🔋 Battery & Energy Storage
 🔵 **EN**
+- 🔵 **[03-22 17:00 OilPrice.com]** The Battery That Breaks Its Own Rules
+  _Battery_
+  _There's a quirk in physics that most engineers never have to worry about: the bigger a conventional battery gets, the longer it takes to charge. Obvious, really. More capacity, mor..._
 - 🔵 **[03-22 02:36 CleanTechnica]** Copper’s Battery-Equipped Induction Range Makes Electrification & Storage Accessible
   _Battery, Copper_
   _While exploring booths at New York Build Expo, Copper’s electric range stood out. In a show targeting professionals, there were not a lot of home cooking appliances. The design was..._
@@ -74,4 +77,4 @@
   _【特斯拉晶圆厂动工 年产能预计1000亿-2000亿颗芯片】3月22日，特斯拉首席执行官马斯克在社交媒体平台发文称，特斯拉已与SpaceX、xAI联合，在美国得州启动2纳米晶圆厂的建设，该晶圆厂预计年产能1000亿-2000亿颗芯片。三方项目被称为TERAFAB（太拉工厂）。马斯克曾在1月28日特斯拉财报电话会上称，特斯拉需自建晶圆厂以解决3–4年后的供应瓶..._
 
 ---
-*27 items from 7 sources | Last 36h | Not investment advice*
+*28 items from 7 sources | Last 36h | Not investment advice*
