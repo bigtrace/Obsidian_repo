@@ -11,10 +11,14 @@
             "id": "da6b1e18cf53f7f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "ai-daily-2026-03-22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ai-daily-2026-03-22"
             }
           }
         ]
@@ -173,13 +177,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "b193de64db8c89d3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,14 +203,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da6b1e18cf53f7f3",
+  "active": "2956b5af09200ee5",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "ai-daily-2026-03-22.md",
+    "ashare-daily-2026-03-22.md",
+    "global-news-2026-03-22.md",
+    "rwsb-daily-2026-03-22.md",
     "2026-03-22.md",
+    "Welcome.md",
     "Untitled.base",
-    "Welcome.md"
+    "openclaw_test.md",
+    "Untitled.canvas"
   ]
 }
