@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw — For the Fundamental PM</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #222636;
+    --border: #2e3250;
+    --accent: #6c7cff;
+    --accent2: #ff6b6b;
+    --accent3: #43e97b;
+    --accent4: #f7971e;
+    --accent5: #a78bfa;
+    --text: #e2e8f0;
+    --muted: #8892b0;
+    --tag-bg: #1e2340;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0f1117 0%, #1a1d40 50%, #0f1117 100%);
+    padding: 64px 40px 48px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(108,124,255,0.15) 0%, transparent 70%);
+  }
+  .hero-emoji { font-size: 56px; display: block; margin-bottom: 16px; }
+  .hero h1 { font-size: 2.6rem; font-weight: 700; letter-spacing: -0.5px; color: #fff; }
+  .hero h1 span { color: var(--accent); }
+  .hero .subtitle {
+    font-size: 1.15rem; color: var(--muted); margin: 12px auto 24px;
+    max-width: 620px; line-height: 1.6;
+  }
+  .hero-tags { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .tag {
+    background: var(--tag-bg); border: 1px solid var(--border);
+    border-radius: 20px; padding: 5px 14px; font-size: 0.8rem;
+    color: var(--muted); font-weight: 500;
+  }
+  .tag.blue { color: var(--accent); border-color: rgba(108,124,255,0.3); }
+  .tag.green { color: var(--accent3); border-color: rgba(67,233,123,0.3); }
+  .tag.orange { color: var(--accent4); border-color: rgba(247,151,30,0.3); }
+
+  /* ── LAYOUT ── */
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+  .section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+  .section-title {
+    font-size: 1.4rem; font-weight: 700; margin-bottom: 8px; color: #fff;
+  }
+  .section-subtitle { color: var(--muted); margin-bottom: 32px; font-size: 0.95rem; }
+
+  /* ── CONCEPT BOX ── */
+  .concept-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 16px;
+  }
+  .concept-box h3 { font-size: 1rem; font-weight: 600; margin-bottom: 6px; color: #fff; }
+  .concept-box p { color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
+  .concept-box .analogy {
+    margin-top: 10px; padding: 10px 14px;
+    background: rgba(108,124,255,0.08); border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0; font-size: 0.88rem; color: #b0b8d4;
+  }
+
+  /* ── ARCHITECTURE DIAGRAM ── */
+  .arch-diagram {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 24px 0;
+  }
+  .arch-row {
+    display: flex; align-items: stretch;
+    gap: 12px; margin-bottom: 12px;
+  }
+  .arch-arrow {
+    display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 1.4rem; flex-shrink: 0; width: 30px;
+  }
+  .arch-block {
+    flex: 1; border-radius: 10px; padding: 16px 18px;
+    border: 1px solid; min-width: 0;
+  }
+  .arch-block.blue { background: rgba(108,124,255,0.1); border-color: rgba(108,124,255,0.3); }
+  .arch-block.green { background: rgba(67,233,123,0.08); border-color: rgba(67,233,123,0.25); }
+  .arch-block.orange { background: rgba(247,151,30,0.08); border-color: rgba(247,151,30,0.25); }
+  .arch-block.purple { background: rgba(167,139,250,0.08); border-color: rgba(167,139,250,0.25); }
+  .arch-block.red { background: rgba(255,107,107,0.08); border-color: rgba(255,107,107,0.25); }
+  .arch-block .label { font-weight: 600; font-size: 0.85rem; margin-bottom: 4px; }
+  .arch-block.blue .label { color: var(--accent); }
+  .arch-block.green .label { color: var(--accent3); }
+  .arch-block.orange .label { color: var(--accent4); }
+  .arch-block.purple .label { color: var(--accent5); }
+  .arch-block.red .label { color: var(--accent2); }
+  .arch-block .desc { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+
+  /* ── FILE TREE ── */
+  .file-tree {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.82rem;
+  }
+  .file-tree .dir { color: var(--accent); font-weight: 600; }
+  .file-tree .file { color: var(--text); }
+  .file-tree .comment { color: var(--muted); font-style: italic; }
+  .file-tree .highlight { color: var(--accent3); }
+  .file-tree .warn { color: var(--accent4); }
+  .tree-line { display: flex; gap: 12px; align-items: baseline; line-height: 1.9; }
+  .tree-prefix { flex-shrink: 0; color: var(--border); }
+  .tree-annotation {
+    margin-left: auto; font-size: 0.75rem; color: var(--muted);
+    background: var(--tag-bg); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1px 8px; white-space: nowrap;
+  }
+  .tree-annotation.key { color: var(--accent3); border-color: rgba(67,233,123,0.3); }
+
+  /* ── FLOW CARD GRID ── */
+  .flow-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .flow-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .flow-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  }
+  .flow-card.blue::before { background: var(--accent); }
+  .flow-card.green::before { background: var(--accent3); }
+  .flow-card.orange::before { background: var(--accent4); }
+  .flow-card.purple::before { background: var(--accent5); }
+  .flow-card.red::before { background: var(--accent2); }
+  .flow-card .num {
+    font-size: 1.6rem; font-weight: 800; opacity: 0.12;
+    position: absolute; top: 12px; right: 16px;
+  }
+  .flow-card .icon { font-size: 1.6rem; margin-bottom: 10px; }
+  .flow-card h4 { font-size: 0.95rem; font-weight: 600; color: #fff; margin-bottom: 6px; }
+  .flow-card p { font-size: 0.82rem; color: var(--muted); line-height: 1.55; }
+
+  /* ── PM USE CASE TABLE ── */
+  .use-case-table { width: 100%; border-collapse: collapse; }
+  .use-case-table th {
+    text-align: left; padding: 10px 16px; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); border-bottom: 1px solid var(--border);
+  }
+  .use-case-table td {
+    padding: 12px 16px; font-size: 0.88rem;
+    border-bottom: 1px solid rgba(46,50,80,0.5); vertical-align: top;
+  }
+  .use-case-table tr:hover td { background: var(--surface2); }
+  .badge {
+    display: inline-block; border-radius: 4px; padding: 2px 8px;
+    font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+  }
+  .badge.live { background: rgba(67,233,123,0.15); color: var(--accent3); }
+  .badge.easy { background: rgba(108,124,255,0.15); color: var(--accent); }
+  .badge.adv { background: rgba(247,151,30,0.15); color: var(--accent4); }
+
+  /* ── QUOTE ── */
+  .callout {
+    background: rgba(108,124,255,0.08); border: 1px solid rgba(108,124,255,0.2);
+    border-radius: 12px; padding: 20px 24px; margin: 24px 0;
+    display: flex; gap: 16px; align-items: flex-start;
+  }
+  .callout .icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 2px; }
+  .callout p { font-size: 0.9rem; color: #b0b8d4; line-height: 1.6; }
+  .callout p strong { color: var(--accent); }
+
+  /* ── FOOTER ── */
+  footer {
+    padding: 32px 40px; text-align: center;
+    color: var(--muted); font-size: 0.82rem;
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 1.8rem; }
+    .arch-row { flex-direction: column; }
+    .arch-arrow { transform: rotate(90deg); }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════ HERO -->
+<div class="hero">
+  <span class="hero-emoji">🦞</span>
+  <h1>Understanding <span>OpenClaw</span></h1>
+  <p class="subtitle">
+    A plain-English guide for Fundamental Portfolio Managers — what OpenClaw is,
+    how it's structured, and how you can harness it for serious investment research.
+  </p>
+  <div class="hero-tags">
+    <span class="tag blue">Personal AI Agent</span>
+    <span class="tag green">Self-Hosted</span>
+    <span class="tag orange">Multi-Channel</span>
+    <span class="tag">Telegram · WhatsApp · Slack</span>
+    <span class="tag">Cron Automation</span>
+    <span class="tag">Custom Skills</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ WHAT IS IT -->
+<div class="container">
+<div class="section">
+  <div class="section-title">🔭 What is OpenClaw?</div>
+  <div class="section-subtitle">Think of it as a personal Bloomberg terminal that you can talk to — and that works for you overnight.</div>
+
+  <div class="callout">
+    <span class="icon">💡</span>
+    <p>
+      <strong>The one-line pitch:</strong> OpenClaw is an always-on AI assistant you run on your own server.
+      It connects to the messaging apps you already use (Telegram, WhatsApp, Slack…),
+      can execute code, fetch data, and schedule automated tasks — all controlled by you,
+      no data sent to a third-party SaaS platform.
+    </p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:8px;">
+    <div class="concept-box">
+      <h3>📱 It lives in your chat</h3>
+      <p>You message it on Telegram (or WhatsApp, Slack, etc.) like texting a very capable analyst. It reads your question, thinks, uses tools, and replies — no app to open.</p>
+      <div class="analogy">Analogy: Like having an analyst who's always on call and replies on WhatsApp.</div>
+    </div>
+    <div class="concept-box">
+      <h3>⏰ It works while you sleep</h3>
+      <p>Cron jobs let you schedule tasks — fetch data, run scripts, generate reports — at any time. Every morning at 8 AM SGT, six research digests land in your Telegram automatically.</p>
+      <div class="analogy">Analogy: Like a Bloomberg alert + morning briefing, but fully customisable.</div>
+    </div>
+    <div class="concept-box">
+      <h3>🧠 It remembers context</h3>
+      <p>Unlike a standard chatbot, OpenClaw has persistent memory files, a workspace, and skills. It learns your preferences and can maintain research threads across sessions.</p>
+      <div class="analogy">Analogy: Like an analyst who actually reads last week's notes before your call.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ ARCHITECTURE -->
+<div class="section">
+  <div class="section-title">🏗️ How It's Structured</div>
+  <div class="section-subtitle">Three layers: the Gateway (server), the Agent (brain), and the Workspace (memory + tools).</div>
+
+  <div class="arch-diagram">
+    <!-- Row 1: You -->
+    <div class="arch-row">
+      <div class="arch-block blue" style="flex:0 0 180px">
+        <div class="label">📱 You</div>
+        <div class="desc">Telegram / WhatsApp / Slack / Web — wherever you message</div>
+      </div>
+      <div class="arch-arrow">⟷</div>
+      <div class="arch-block blue">
+        <div class="label">🌐 Gateway (Server Process)</div>
+        <div class="desc">
+          The always-on daemon running on your server (VPS/Mac/Pi). Routes messages between your chat apps and the AI model.
+          Manages channels, authentication, cron scheduler, and delivery queues.
+          Config: <code style="color:#a78bfa">~/.openclaw/openclaw.json</code>
+        </div>
+      </div>
+    </div>
+
+    <div class="arch-row" style="margin-left:212px">
+      <div class="arch-arrow" style="transform:rotate(90deg)">↓</div>
+    </div>
+
+    <!-- Row 2: Agent -->
+    <div class="arch-row">
+      <div style="flex:0 0 180px"></div>
+      <div class="arch-block green">
+        <div class="label">🤖 Agent (Claude / GPT)</div>
+        <div class="desc">
+          The AI model (currently Claude Sonnet 4.6). Receives your message + workspace context,
+          calls tools (web search, code execution, file read/write, memory), and crafts a reply.
+          Governed by <code style="color:#43e97b">SOUL.md</code>, <code style="color:#43e97b">AGENTS.md</code>, and skills.
+        </div>
+      </div>
+    </div>
+
+    <div class="arch-row" style="margin-left:212px">
+      <div class="arch-arrow" style="transform:rotate(90deg)">↓</div>
+    </div>
+
+    <!-- Row 3: Workspace -->
+    <div class="arch-row">
+      <div style="flex:0 0 180px"></div>
+      <div class="arch-block orange">
+        <div class="label">📁 Workspace</div>
+        <div class="desc">
+          The agent's "desk" — files it can read, write, and execute. Contains memory, scripts, digests, and skills.
+          Path: <code style="color:#f7971e">~/.openclaw/workspace/</code>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px;margin-left:0">
+      <div class="arch-block purple">
+        <div class="label">🧠 Memory Files</div>
+        <div class="desc">MEMORY.md, daily notes — persistent context across sessions</div>
+      </div>
+      <div class="arch-block purple">
+        <div class="label">🐍 Scripts</div>
+        <div class="desc">Python/bash scripts the agent can run — data fetchers, digest generators</div>
+      </div>
+      <div class="arch-block purple">
+        <div class="label">🎯 Skills</div>
+        <div class="desc">Modular playbooks (SKILL.md files) that teach the agent domain-specific workflows</div>
+      </div>
+      <div class="arch-block purple">
+        <div class="label">⏰ Cron Jobs</div>
+        <div class="desc">Scheduled tasks — runs scripts automatically, delivers reports to Telegram</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ FILE STRUCTURE -->
+<div class="section">
+  <div class="section-title">📂 Key Files & Folders Explained</div>
+  <div class="section-subtitle">What everything does — no jargon.</div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+
+    <!-- Left: Server config -->
+    <div>
+      <p style="font-size:0.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px;font-weight:600;">Server / Gateway Layer</p>
+      <div class="file-tree">
+        <div class="tree-line"><span class="tree-prefix">📁</span><span class="dir">~/.openclaw/</span><span class="tree-annotation">Server home</span></div>
+        <div class="tree-line"><span class="tree-prefix">  ├─</span><span class="warn">openclaw.json</span><span class="tree-annotation key">Main config</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │ </span><span class="comment">  AI model, channels (Telegram token, </span></div>
+        <div class="tree-line"><span class="tree-prefix">  │ </span><span class="comment">  WhatsApp), sandbox policy, heartbeat</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="dir">cron/</span><span class="tree-annotation key">Scheduler</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  ├─</span><span class="file">jobs.json</span><span class="tree-annotation">All scheduled tasks</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  └─</span><span class="dir">runs/</span><span class="tree-annotation">Execution logs</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="dir">agents/</span><span class="tree-annotation">Agent session state</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  └─</span><span class="file">sessions.json</span><span class="tree-annotation">Conversation history</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="dir">telegram/</span><span class="tree-annotation">Telegram state</span></div>
+        <div class="tree-line"><span class="tree-prefix">  ├─</span><span class="dir">credentials/</span><span class="tree-annotation">API keys (encrypted)</span></div>
+        <div class="tree-line"><span class="tree-prefix">  └─</span><span class="dir">logs/</span><span class="tree-annotation">Gateway logs</span></div>
+      </div>
+    </div>
+
+    <!-- Right: Workspace -->
+    <div>
+      <p style="font-size:0.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px;font-weight:600;">Workspace / Agent Layer</p>
+      <div class="file-tree">
+        <div class="tree-line"><span class="tree-prefix">📁</span><span class="dir">~/.openclaw/workspace/</span><span class="tree-annotation">Agent's desk</span></div>
+        <div class="tree-line"><span class="tree-prefix">  ├─</span><span class="warn">SOUL.md</span><span class="tree-annotation key">Agent personality</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │ </span><span class="comment">  Defines tone, values, behaviour rules</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="warn">AGENTS.md</span><span class="tree-annotation key">Operating rules</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │ </span><span class="comment">  How to handle memory, group chats,</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │ </span><span class="comment">  heartbeats, and external actions</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="file">MEMORY.md</span><span class="tree-annotation">Long-term memory</span></div>
+        <div class="tree-line"><span class="tree-prefix">  ├─</span><span class="file">HEARTBEAT.md</span><span class="tree-annotation">Periodic check tasks</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="dir">scripts/</span><span class="tree-annotation key">Python automation</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  ├─</span><span class="highlight">ai_news_digest.py</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  ├─</span><span class="highlight">ashare_daily_akshare.py</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  ├─</span><span class="highlight">electrification_digest.py</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  ├─</span><span class="highlight">ai_commerce_digest.py</span></div>
+        <div class="tree-line"><span class="tree-prefix">  │  └─</span><span class="file">obsidian_sync.sh</span></div>
+        <div class="tree-line" style="margin-top:6px"><span class="tree-prefix">  ├─</span><span class="dir">skills/</span><span class="tree-annotation key">Domain playbooks</span></div>
+        <div class="tree-line"><span class="tree-prefix">  ├─</span><span class="dir">digests/</span><span class="tree-annotation">Generated reports</span></div>
+        <div class="tree-line"><span class="tree-prefix">  └─</span><span class="dir">memory/</span><span class="tree-annotation">Daily session notes</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Key files explained -->
+  <div style="margin-top:28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;">
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>🧬 SOUL.md</h3>
+      <p>The agent's character document. Defines how it speaks, whether it has opinions, and what it prioritises. Like an onboarding doc for a new analyst.</p>
+    </div>
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>📋 AGENTS.md</h3>
+      <p>Operating manual — when to check email, how to handle group chats, memory management rules. The agent reads this on every session start.</p>
+    </div>
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>🎯 skills/SKILL.md</h3>
+      <p>Modular knowledge packs. Each skill teaches the agent a specific workflow — e.g. "how to generate an A-Share report" or "how to sync to Obsidian."</p>
+    </div>
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>⏰ cron/jobs.json</h3>
+      <p>The job scheduler. Each entry has a cron expression, a script to run, and a delivery target (Telegram chat ID). Runs independently of any active conversation.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ DATA FLOW -->
+<div class="section">
+  <div class="section-title">🔄 How a Morning Digest Gets to You</div>
+  <div class="section-subtitle">From scheduled trigger to Telegram — step by step.</div>
+
+  <div class="flow-grid">
+    <div class="flow-card blue">
+      <div class="num">1</div>
+      <div class="icon">⏰</div>
+      <h4>Cron Fires at 8:00 AM SGT</h4>
+      <p>Gateway reads <code>cron/jobs.json</code>, sees it's time to run "Global News Digest." Spins up an isolated agent session.</p>
+    </div>
+    <div class="flow-card green">
+      <div class="num">2</div>
+      <div class="icon">🐍</div>
+      <h4>Script Executes</h4>
+      <p>Agent runs <code>global_news_digest.py</code> — fetches Bloomberg RSS, 财联社 via AkShare, BBC, NYT. Filters and categorises 200+ raw items.</p>
+    </div>
+    <div class="flow-card orange">
+      <div class="num">3</div>
+      <div class="icon">🤖</div>
+      <h4>Agent Formats Output</h4>
+      <p>Claude reads the digest file and reformats it for Telegram: bold text, emoji sections, bilingual EN + 中文 — no tables, no markdown headers.</p>
+    </div>
+    <div class="flow-card purple">
+      <div class="num">4</div>
+      <div class="icon">📲</div>
+      <h4>Delivered to Telegram</h4>
+      <p>Gateway pushes the formatted message to your Telegram chat ID. You see it in your phone like a normal message.</p>
+    </div>
+    <div class="flow-card red">
+      <div class="num">5</div>
+      <div class="icon">💎</div>
+      <h4>Saved to Obsidian</h4>
+      <p>At 8:30 AM, the sync job copies all 6 digests to <code>~/Obsidian Vault/YYYY-MM-DD/</code> and pushes to GitHub. Auto-appears in your Obsidian on Mac/mobile.</p>
+    </div>
+    <div class="flow-card blue">
+      <div class="num">6</div>
+      <div class="icon">📋</div>
+      <h4>TL;DR Generated</h4>
+      <p>Agent synthesises all 6 reports into a master <code>TLDR-YYYY-MM-DD.md</code> with Obsidian wikilinks + PM Monday Watchlist actions.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ PM USE CASES -->
+<div class="section">
+  <div class="section-title">📊 How a PM Can Use This — Today vs Tomorrow</div>
+  <div class="section-subtitle">Current live setup + what's possible with more customisation.</div>
+
+  <table class="use-case-table">
+    <thead>
+      <tr>
+        <th>Use Case</th>
+        <th>How It Works</th>
+        <th>Data Source</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🌐 Global macro morning brief</strong></td>
+        <td>Bilingual EN+ZH digest — geopolitical, Fed, ECB, China policy news — lands on Telegram at 8 AM</td>
+        <td>Bloomberg, BBC, NYT, 财联社, EastMoney</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>🇨🇳 CSI 300 daily mover analysis</strong></td>
+        <td>Top/bottom 5 movers with per-stock news headlines, CSRC 19-sector fund flows</td>
+        <td>AkShare / Sina, EastMoney</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>📊 Retail investor sentiment</strong></td>
+        <td>r/WallStreetBets analysis — crowd positioning, short squeeze signals, key trade ideas</td>
+        <td>WSB RSS (rss.app)</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>🤖 AI disruption risk tracker</strong></td>
+        <td>AI-natives vs incumbents collision monitor — scores disruption risk by stock (Google, MSFT, Salesforce…)</td>
+        <td>TechCrunch, Bloomberg, OpenAI blog, EastMoney</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>⚡ Electrification theme tracker</strong></td>
+        <td>Data center power demand, EV sales, battery storage, grid capex signals — daily digest</td>
+        <td>Electrek, CleanTechnica, DC Dynamics, AkShare</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>🛒 AI commerce disruption</strong></td>
+        <td>Tracks AI-native shopping agents vs Amazon/Walmart/Shopify — "is AI becoming the shopping interface?"</td>
+        <td>Modern Retail, PYMNTS, Bloomberg Tech</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>💎 Obsidian research vault</strong></td>
+        <td>All digests auto-saved to Obsidian vault, synced to Mac/mobile via GitHub daily</td>
+        <td>Local files → GitHub → Obsidian Git</td>
+        <td><span class="badge live">Live</span></td>
+      </tr>
+      <tr>
+        <td><strong>📈 Custom stock screener alerts</strong></td>
+        <td>Ask agent to screen CSI 300 / S&P 500 by momentum, insider buys, EPS revision — delivered on demand</td>
+        <td>AkShare, Yahoo Finance, or custom APIs</td>
+        <td><span class="badge easy">Easy to add</span></td>
+      </tr>
+      <tr>
+        <td><strong>📝 Earnings call notes</strong></td>
+        <td>Feed earnings transcripts to agent → summarise key themes, guidance changes, management tone</td>
+        <td>Earnings transcript PDFs or APIs</td>
+        <td><span class="badge easy">Easy to add</span></td>
+      </tr>
+      <tr>
+        <td><strong>🔔 Price/news alerts</strong></td>
+        <td>Schedule a cron every 30 min — if stock X moves >3% or specific keyword appears in news, alert via Telegram</td>
+        <td>AkShare real-time + RSS</td>
+        <td><span class="badge easy">Easy to add</span></td>
+      </tr>
+      <tr>
+        <td><strong>📊 Portfolio NAV tracker</strong></td>
+        <td>Daily P&L, sector attribution, top contributors — formatted report pushed to Telegram</td>
+        <td>Custom portfolio data + AkShare prices</td>
+        <td><span class="badge adv">Advanced</span></td>
+      </tr>
+      <tr>
+        <td><strong>🔬 Deep research on a company</strong></td>
+        <td>"Do a full research report on CATL" — agent searches web, pulls financials, writes structured note, saves to Obsidian</td>
+        <td>Web search + AkShare + custom APIs</td>
+        <td><span class="badge adv">Advanced</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ HOW TO EXTEND -->
+<div class="section">
+  <div class="section-title">🛠️ How to Extend It (No Coding Required for Simple Tasks)</div>
+  <div class="section-subtitle">The PM doesn't need to write code — just describe what you want.</div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;">
+
+    <div class="concept-box">
+      <h3>💬 Just ask in Telegram</h3>
+      <p>
+        "Add a daily digest tracking semiconductor supply chain news."<br><br>
+        The agent will: find RSS sources, write the Python script, schedule the cron job, and start delivering it tomorrow morning. No code written by you.
+      </p>
+    </div>
+
+    <div class="concept-box">
+      <h3>🎯 Add a new skill</h3>
+      <p>
+        Skills are markdown files that teach the agent how to do something specific.
+        <code style="color:var(--accent3)">clawhub search "earnings transcript"</code> to find pre-built skills from the community, or ask the agent to create a custom one.
+      </p>
+    </div>
+
+    <div class="concept-box">
+      <h3>📊 Connect your own data</h3>
+      <p>
+        Point a Python script at any API — Bloomberg Terminal API, FactSet, Refinitiv, your prime broker portal — and the agent can read, analyse, and summarise that data on a schedule.
+      </p>
+    </div>
+
+    <div class="concept-box">
+      <h3>🔗 Chain reports together</h3>
+      <p>
+        The TL;DR generator reads all 6 digests and synthesises a single master note. You can chain any reports: "if the AI digest mentions NVDA + disruption, add a flag to the morning watchlist."
+      </p>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:28px">
+    <span class="icon">⚡</span>
+    <p>
+      <strong>The key insight for a PM:</strong> OpenClaw is not a fixed product — it's a programmable research assistant infrastructure.
+      The 6 morning digests took about 4 hours to build from scratch in a single conversation.
+      Every new data source, new theme, or new alert is 10-30 minutes of conversation away.
+      The marginal cost of adding a new research workflow is near zero.
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════ SECURITY NOTE -->
+<div class="section">
+  <div class="section-title">🔒 Security & Privacy</div>
+  <div class="section-subtitle">Your data stays on your server.</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;">
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>🏠 Self-hosted</h3>
+      <p>Runs on your own VPS (AWS, DigitalOcean, or home server). No data goes to an OpenClaw cloud. Your research, positions, and questions never leave your infrastructure.</p>
+    </div>
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>🤖 AI model calls</h3>
+      <p>Your messages are sent to Anthropic (Claude) or OpenAI for inference — the same as using Claude.ai directly. Use enterprise agreements if needed for data residency.</p>
+    </div>
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>📱 Channel security</h3>
+      <p>Telegram/WhatsApp bots are auth-gated. Only whitelisted user IDs can interact with the agent. Group policies control who can trigger actions.</p>
+    </div>
+    <div class="concept-box" style="margin-bottom:0">
+      <h3>🔑 API credentials</h3>
+      <p>Stored locally in <code>~/.openclaw/credentials/</code>. Not transmitted anywhere except to the intended API provider (GitHub, Telegram, etc.).</p>
+    </div>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<!-- ═══════════════════════════════════════════════════ FOOTER -->
+<footer>
+  <p>Generated by OpenClaw Agent · 2026-03-22 · Running on Claude Sonnet 4.6</p>
+  <p style="margin-top:6px">
+    <a href="https://docs.openclaw.ai">docs.openclaw.ai</a> ·
+    <a href="https://clawhub.com">clawhub.com</a> ·
+    <a href="https://discord.gg/clawd">Discord community</a>
+  </p>
+</footer>
+
+</body>
+</html>
