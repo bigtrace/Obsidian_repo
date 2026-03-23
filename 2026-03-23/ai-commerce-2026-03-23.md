@@ -1,42 +1,66 @@
 # 🛒 AI Commerce & Consumer Disruption Digest — 2026-03-23
-> *Generated: 2026-03-23 02:20 SGT | Key question: Is AI replacing the shopping interface? Who wins, who loses?*
+> *Generated: 2026-03-23 23:25 SGT | Key question: Is AI replacing the shopping interface? Who wins, who loses?*
 
 ---
 
 ## 🚨 Top Disruption Signals Today
+- 🔵 🚨🚨 **RBC Embeds AI at the Core of Banking, Aiming for $1 Billion in Returns**
+  _Target_
+  _Royal Bank of Canada is deploying artificial intelligence at the operational core of its business, across developer workflows, capital markets infrastructure and enterprise decisio..._
+- 🔵 🚨🚨 **Treasury Department Targets Regulatory Friction to Scale Bank AI Adoption**
+  _Target_
+  _The Treasury Department announced Monday (March 23) that a series of four roundtables dubbed the “AI Innovation Series” will bring together financial institutions, technology firms..._
+- 🔵 🚨🚨 **Bezos’s AI Manufacturing Gamble Could Change How Companies Get Fixed**
+  _Amazon_
+  _The history of artificial intelligence (AI) is a largely digital one. Even the generative and agentic AI boom has remained, for the most part, confined to text, code and media cont..._
 - 🔵 🚨🚨 **An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple**
   _Amazon_
   _Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal...._
 
+## 🤖 AI as Shopping Interface (Agents, Chatbots, Agentic Commerce)
+🔵 **EN**
+- 🔵 **[03-23 19:25 PYMNTS]** New York Requires Retailers to Accept Cash Payments
+  _New York Attorney General Letitia James reminded New Yorkers Friday (March 20) that a new law requires stores throughout the state to allow customers to pay in cash. While sharing ..._
+- 🔵 **[03-23 14:47 Digital Commerce 360]** Coveo adds conversational product discovery to ecommerce search
+  _AI Commerce, Conversational Commerce_
+  _Coveo is introducing a conversational product discovery feature that embeds natural language interaction directly into ecommerce search, as companies continue to incorporate artifi..._
+
 ## 🛒 E-Commerce & Marketplace Trends
 🔵 **EN**
+- 🔵 **[03-23 22:40 PYMNTS]**🚨🚨 RBC Embeds AI at the Core of Banking, Aiming for $1 Billion in Returns
+  _Target_
+  _Royal Bank of Canada is deploying artificial intelligence at the operational core of its business, across developer workflows, capital markets infrastructure and enterprise decisio..._
+- 🔵 **[03-23 20:43 PYMNTS]**🚨🚨 Treasury Department Targets Regulatory Friction to Scale Bank AI Adoption
+  _Target_
+  _The Treasury Department announced Monday (March 23) that a series of four roundtables dubbed the “AI Innovation Series” will bring together financial institutions, technology firms..._
+- 🔵 **[03-23 20:29 PYMNTS]**🚨🚨 Bezos’s AI Manufacturing Gamble Could Change How Companies Get Fixed
+  _Amazon_
+  _The history of artificial intelligence (AI) is a largely digital one. Even the generative and agentic AI boom has remained, for the most part, confined to text, code and media cont..._
 - 🔵 **[03-22 12:00 TechCrunch AI]**🚨🚨 An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple
   _Amazon_
   _Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal._
-- 🔵 **[03-22 08:00 Bloomberg Tech]** Retailers Push UK to Join US and EU Ending Shein Parcel Loophole
-  _PDD/Temu, Shein_
-  _British retailers are pushing the UK government to act faster and end a tax loophole that has helped online giants Shein and Temu make significant inroads and gain market share._
+- 🔵 **[03-23 15:17 Digital Commerce 360]** New B2B marketplaces target construction, equipment and data center sourcing
+  _Target_
+  _A new group of B2B marketplaces launched or expanded in the United States during the first quarter of 2026, targeting construction materials, equipment rental and data center infra..._
+- 🔵 **[03-23 14:18 Digital Commerce 360]** Amazon signals ecommerce delivery shift as USPS contract talks stall
+  _Amazon_
+  _Amazon is preparing to reduce its reliance on the U.S. Postal Service (USPS) as contract negotiations between the two sides have stalled, raising questions about how millions of ec..._
 🔴 **中文**
-- 🔴 **[03-23 10:18 EastMoney(CN)]** AI玩具带娃透视
-  _【AI玩具带娃透视】“能聊天、会安抚情绪，还可以陪读……”越来越多AI玩具涌入儿童房，成了年轻父母“科技带娃”的新帮手。淘宝2025年度十大商品榜单上，“AI陪伴玩偶”引人注目。记者检索发现，不少主打婴童陪伴功能的产品，月销量达到5000+。_
-- 🔴 **[03-23 08:12 EastMoney(CN)]** 中信建投：看好受益于长期高油价的行业 如新能源、储能等
-  _【中信建投：看好受益于长期高油价的行业 如新能源、储能等】中信建投研报认为，全球能源价格大幅上涨，消费受到抑制的背景下，可能明显受损的方向包括：高估值板块、高能耗（油耗）行业、需求抑制成本上行行业。看好三个方向：1.受益于霍尔木兹海峡封闭和长期高油价的行业，如：煤化工、新能源、储能、核电、电网；2.现金流稳定的防御性品种，如：煤炭和水电；3.易被错杀的确定性..._
-- 🔴 **[03-23 07:20 EastMoney(CN)]** 公募调研兼顾科技和消费 业绩确定性成关注焦点
-  _【公募调研兼顾科技和消费 业绩确定性成关注焦点】近两周（2026年3月9日至22日），公募基金调研数据显示，以蓝帆医疗、海联讯为代表的医药、科技板块公司接待了超40家基金密集造访，成为近期最受基金公司关注的调研标的。然而，在机构追捧高景气成长赛道的同时，对银行等低估值稳健品种的关注也在悄然升温，折射出基金经理在“优质赛道+业绩确定性”的共识下，正进行更为均衡..._
+- 🔴 **[03-23 20:27 EastMoney(CN)]** 美国汽车购买平台电动车相关搜索量上升了约20%
+  _【美国汽车购买平台电动车相关搜索量上升了约20%】美国保险公司AAA统计数据显示，当地时间3月22日，美国全国平均油价达到每加仑3.94美元，为近三年来最高水平。高油价迅速改变了部分消费者的行为。汽车购买平台CarEdge数据显示，自军事行动发生以来三周内，电动车相关搜索量上升了约20%。_
 
 ---
 
 ## 📊 Incumbent Disruption Risk Tracker
 _Which traditional retail/consumer names face AI shopping displacement risk?_
 
-**Amazon** — 🔴 Disruption signal (1 mentions)
-  - An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple
+**Target** — 🔴 Disruption signal (3 mentions)
+  - RBC Embeds AI at the Core of Banking, Aiming for $1 Billion in Returns
+  - Treasury Department Targets Regulatory Friction to Scale Bank AI Adoption
 
-**PDD/Temu** — 🟡 Monitoring (1 mentions)
-  - Retailers Push UK to Join US and EU Ending Shein Parcel Loophole
-
-**Shein** — 🟡 Monitoring (1 mentions)
-  - Retailers Push UK to Join US and EU Ending Shein Parcel Loophole
+**Amazon** — 🔴 Disruption signal (3 mentions)
+  - Bezos’s AI Manufacturing Gamble Could Change How Companies Get Fixed
+  - Amazon signals ecommerce delivery shift as USPS contract talks stall
 
 ---
-*5 items from 3 sources | Last 36h | Not investment advice*
+*9 items from 4 sources | Last 36h | Not investment advice*

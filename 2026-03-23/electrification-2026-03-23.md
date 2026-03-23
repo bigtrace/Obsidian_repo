@@ -1,80 +1,115 @@
 # ⚡ Electrification Theme Digest — 2026-03-23
-> *Generated: 2026-03-23 02:18 SGT | For Equity PMs | Themes: Data Centers, EV, Battery, Grid, Minerals*
+> *Generated: 2026-03-23 23:20 SGT | For Equity PMs | Themes: Data Centers, EV, Battery, Grid, Minerals*
 
 ---
 
 ## 🏗️ Data Centers & Hyperscaler Power Demand
 🔵 **EN**
+- 🔵 **[03-23 12:42 DC Dynamics]** Elon Musk announces TeraFab: $20bn factory will make chips for SpaceX orbital data centers and Tesla vehicles
+  _DataCenter, Tesla_
+  _Claims it will be "the most epic chip-building exercise in history by far"_
 - 🔵 **[03-22 14:46 Electrek]** Tesla and SpaceX announce $25B ‘Terafab’ chip factory — here’s why it reeks of desperation
   _Tesla_
   _Tesla and SpaceX have unveiled “Terafab,” a joint $25 billion chip fabrication facility in Austin, Texas, that Elon Musk claims will produce 1 terawatt of computing power annually...._
-- 🔵 **[03-22 17:03 DC Dynamics]** Iran threatens to attack energy and IT infrastructure if Trump targets power plants
-  _Amazon/AWS, DataCenter_
-  _After AWS data centers were hit early on in the war_
-- 🔵 **[03-22 04:50 Bloomberg Tech]** Musk Says Tesla, SpaceX, xAI Chip Project to Kick Off in Texas
-  _DataCenter, Tesla_
-  _Elon Musk said his Terafab project &mdash; a grand plan to eventually manufacture his own chips for robotics, artificial intelligence and space data centers &mdash; will be built i..._
-- 🔵 **[03-21 16:00 DC Dynamics]** DHL expands North American logistics infrastructure to meet data center demand
+- 🔵 **[03-23 22:51 Bloomberg Tech]** Musk Must Face Suit Alleging Power Overreach as Trump Adviser
+  _Amazon/AWS_
+  _A federal judge in Washington will allow a lawsuit to go forward that accuses billionaire Elon Musk of unconstitutionally exercising executive power during his time in the Trump ad..._
+- 🔵 **[03-23 22:27 Bloomberg Tech]** NextEra CEO John Ketchum on Energy Demand, AI Power Needs at CERAWeek
+  _NextEra_
+  _NextEra Energy CEO John Ketchum discusses rising energy demand, AI-driven power needs, and investment and M&amp;A opportunities with Bloomberg’s Julie Fine at CERAWeek in Houston. ..._
+- 🔵 **[03-23 20:41 Bloomberg Tech]** Musk’s Mega Plan for Chip Manufacturing | Bloomberg Tech 3/23/2026
   _DataCenter_
-  _Ten warehouse sites to go live this year_
-- 🔵 **[03-21 15:14 Electrek]** Vermont utility makes it easier than ever to add a home backup battery
-  _Battery, Utility_
-  _Vermont utility Green Mountain Power is expanding one of the country’s most exciting virtual power plant programs, adding a new battery lease program to its menu of home energy off..._
+  _Bloomberg’s Caroline Hyde and Ed Ludlow discuss whiplash in the markets as President Trump outlines talks to potentially end the war in Iran. Plus, Elon Musk's grand plan to manufa..._
+- 🔵 **[03-23 18:29 Bloomberg Tech]** Nscale Reaches $14.6 Billion Valuation, Adds Sandberg to Board
+  _Meta, DataCenter_
+  _UK data center developer Nscale has become one of Europe's most valuable startups with a recent $2 billion funding round. Nscale CEO Josh Payne and newly appointed board member, fo..._
 
 ## 🚗 EV & Automotive Electrification
 🔵 **EN**
-- 🔵 **[03-21 16:32 Electrek]** Auto(nomous)bots, roll(er) out! The $1.75 BILLION future of self driving asphalt
-  _AV/Autonomy_
-  _Autonomous construction tech startup Bedrock Robotics has just closed on a $270 million Series B funding round that brings total investment in the self-driving roller and excavator..._
-- 🔵 **[03-23 02:06 Electrek]** EVQ: I drive my EV for work, but charge at home – how do I track charging costs?
-  _EV, EV Charging_
-  _EV enthusiasts and evangelists are always ready to answer their friends’ questions about going electric. Sometimes, they even get it right! In this series, we’re taking a look at s..._
-- 🔵 **[03-22 22:05 CleanTechnica]** Is The Urban Cruiser Toyota’s Placeholder As It Pivots To BEVs In The Philippines?
-  _Ford, Toyota, EV_
-  _Toyota Motor Philippines (TMP) previewed the Urban Cruiser EV earlier this year before formally pricing it last week, positioning it as its most affordable fully electric offering...._
-- 🔵 **[03-22 19:50 TechCrunch EVs]** The SEC drops its four-year-old investigation into EV startup Faraday Future
-  _EV_
-  _After four years, and multiple subpoenas and depositions, the beleaguered startup has dodged yet another bullet._
-- 🔵 **[03-22 15:38 CleanTechnica]** Over 1,200 New EV Charging Stalls Deployed By EVgo In 2025
-  _EV, EV Charging_
-  _About two weeks ago, EVgo shared on LinkedIn that the US EV charging company deployed over 1,200 charging stalls in 2025. &#8220;This morning, we announced EVgo’s full year 2025 fi..._
-- 🔵 **[03-22 14:48 CleanTechnica]** Silver Lining: Honda’s EV Retreat Proves Trump’s Bully Pulpit Has Become Irrelevant
-  _EV_
-  _It feels like everyone in the EV space already wrote their hot takes on Honda&#8217;s massive $15.8 billion EV retreat when the news first broke, and then promptly moved on to the ..._
+- 🔵 **[03-23 19:39 Bloomberg Tech]** Apple’s Heir Apparent Steps Into the Spotlight
+  _NIO_
+  _John Ternus, Apple's senior vice president of hardware engineering, has become a leading candidate to take over for CEO Tim Cook. Bloomberg's Mark Gurman discusses the growing role..._
+- 🔵 **[03-23 20:20 Bloomberg Tech]** Musk Says Tesla, SpaceX Chip Project to Kick Off in Texas
+  _Tesla_
+  _Tesla and SpaceX will jointly run an advanced chip manufacturing facility in Austin, Texas, according to Elon Musk, the CEO of both companies. Bloomberg's Loren Grush joins Carolin..._
+- 🔵 **[03-23 18:59 Electrek]** Tesla Semi has a million-mile battery, claims Tesla
+  _Tesla, Battery_
+  _Tesla Semi program lead Dan Priestley took Jay Leno on an extensive tour of the production-intent electric truck, revealing significant engineering details — including 1,000 lbs of..._
+- 🔵 **[03-23 18:07 Electrek]** BYD’s big EV bet is paying off as drivers ditch gas with surging oil prices
+  _BYD, EV_
+  _BYD is already seeing a flood of new EV buyers as gas and oil prices surge amid rising tensions in the Middle East. more…_
+- 🔵 **[03-23 17:30 OilPrice.com]** China’s Sinopec not Buying Iranian Crude despite U.S. Waiver
+  _NIO_
+  _Chinese state oil giant Sinopec, Asia’s biggest refiner by capacity, will not buy Iranian oil even after the U.S. waiver on purchases of crude from Iran loaded on tankers as of Mar..._
+- 🔵 **[03-23 16:55 Bloomberg Green]** US Presses EU to Ease Methane Rules, Warns of Energy Supply Risk
+  _NIO, Ford_
+  _The US reiterated its criticism of the European Union’s rules to curb methane emissions from its oil and gas imports, saying that the supply crunch caused by Iran’s attacks on Qata..._
+🔴 **中文**
+- 🔴 **[03-23 21:45 EastMoney(CN)]** 美股新能源汽车概念股盘初上涨
+  _Rivian, Stellantis_
+  _【美股新能源汽车概念股盘初上涨】美股新能源汽车概念股盘初纷纷上涨。小鹏汽车涨超5%，特斯拉、蔚来、Rivian、Stellantis均涨超3%。_
 
 ## 🔋 Battery & Energy Storage
 🔵 **EN**
-- 🔵 **[03-22 17:00 OilPrice.com]** The Battery That Breaks Its Own Rules
+- 🔵 **[03-23 12:08 PV Magazine]** Brazil’s LRCAP battery auction demand estimated at nearly 3 GW
   _Battery_
-  _There's a quirk in physics that most engineers never have to worry about: the bigger a conventional battery gets, the longer it takes to charge. Obvious, really. More capacity, mor..._
-- 🔵 **[03-22 02:36 CleanTechnica]** Copper’s Battery-Equipped Induction Range Makes Electrification & Storage Accessible
-  _Battery, Copper_
-  _While exploring booths at New York Build Expo, Copper’s electric range stood out. In a show targeting professionals, there were not a lot of home cooking appliances. The design was..._
+  _Brazil's second Long-term Reserve Capacity Auction (LRCAP) of 2026 has contracted 501 MW of thermoelectric capacity, leaving an estimated 3 GW of remaining demand to be addressed i..._
+- 🔵 **[03-23 15:45 PV Magazine]** Spain completes testing of Europe’s largest research vanadium BESS
+  _Battery, BESS_
+  _Spain's Fundación Ciudad de la Energía (Ciuden), a government energy research foundation, has completed operational testing of a 1 MW/8 MWh vanadium redox flow battery (VRFB) syste..._
+- 🔵 **[03-23 14:32 CleanTechnica]** Silverado EV: The First 1,000 Miles
+  _Ford, Battery_
+  _At the end of January, I bought a Silverado EV. I didn&#8217;t get the top-of-the-line RST truck with the 200+ kWh battery pack, instead opting for the more affordable LT trim with..._
+- 🔵 **[03-23 14:01 Electrek]** Donut Lab solid-state battery: 5 independent tests in, still no energy density or cycle life data
+  _Battery_
+  _Donut Lab has now released five independent test reports from Finland’s VTT Technical Research Centre on its solid-state battery — and not a single one addresses the two claims tha..._
+- 🔵 **[03-23 13:00 PV Magazine]** Ghana plans to procure 200 MW of battery storage
+  _Battery_
+  _Ghana’s Minister for Energy and Green Transition says the country will advertise competitive bidding processes to deploy 200 MW of battery storage across the country. Ghana’s curre..._
+- 🔵 **[03-23 09:20 PV Magazine]** Indian industry body projects 346 GWh of BESS capacity by 2033
+  _Battery, BESS, Energy Storage_
+  _India's cumulative installed battery energy storage system (BESS) capacity is projected to reach 346 GWh by 2033 from less than 1 GWh today, according to a white paper by the India..._
 
 ## ⚡ Grid, Utilities & Clean Power
 🔵 **EN**
-- 🔵 **[03-22 19:00 OilPrice.com]** Can India Afford to Quit Coal?
-  _Ford, Grid_
-  _India is the world’s biggest case study for decarbonization, with a coal-reliant grid and 1.4 million people who depend on it. The world’s most populous country has an outsized imp..._
-- 🔵 **[03-22 15:00 OilPrice.com]** Red States Are Driving America’s Solar Boom Despite Trump’s Opposition
+- 🔵 **[03-23 22:00 OilPrice.com]** Why Portugal and Spain Dodge Europe’s Energy Price Shock
+  _There is a persistent belief in energy debates that refuses to die: renewables and electrification are necessary, but expensive. It is often framed as an unavoidable trade?off — cl..._
+- 🔵 **[03-23 21:00 OilPrice.com]** Ecuador’s Broken Oil Industry Faces Violent Headwinds
+  _Wind_
+  _The once peaceful South American nation of Ecuador is being rocked by cocaine related violence. Since the 2020 pandemic, the tiny country’s murder rate has spiraled higher, hitting..._
+- 🔵 **[03-23 17:45 Electrek]** Dept. of Interior bribes oil company $1B from taxpayer coffers to stop wind power
+  _Wind_
+  _The Department of the Interior, headed by a man who has received hundreds of thousands of dollars in bribes from oil companies , just declared it will spend $1 billion of your doll..._
+- 🔵 **[03-23 16:40 CleanTechnica]** A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time For The Next Oil Crisis
   _Solar_
-  _Since coming into office last January, United States President Donald Trump has repeatedly criticised renewable energy for hindering the country’s energy security and being a “gree..._
-- 🔵 **[03-21 23:00 OilPrice.com]** Nuclear in the Spotlight amid Oil, Gas Crunch
-  _Nuclear_
-  _Nuclear energy has been making a comeback recently as one of the low-carbon baseload generation options. This comeback is set to accelerate amid the Middle Eastern crisis and the o..._
+  _Perovskite solar cells can be manufactured locally in Europe and elsewhere, providing a buffer against global supply chain disruptions such as the one occurring right now. The post..._
+- 🔵 **[03-23 15:52 Utility Dive]** Better grid utilization could save customers $170B: Brattle report
+  _Grid, Utility_
+  _However, the report&rsquo;s lead author said that &ldquo;we need regulatory models that reward utilities for pursuing this opportunity.&rdquo;_
+- 🔵 **[03-23 14:31 PV Magazine]** New solar window concept integrates polymer-dispersed liquid crystal to enable switchable transparency
+  _Solar, Wind_
+  _Researchers in the United Kingdom have developed a smart window that combines switchable polymer-dispersed liquid crystal with integrated PV cells, offering controllable transparen..._
+
+## ⛏️ Critical Minerals & Supply Chain
+🔵 **EN**
+- 🔵 **[03-23 14:38 OilPrice.com]** Could This Be China’s Strategy To Paralyze the Pentagon?
+  _Rare Earths_
+  _Long before trade wars and tariffs, China secured manufacturing dominance by controlling rare earths - a reality so consequential that the United States and its allies are now pled..._
 
 ## 🌱 General Electrification
 🔴 **中文**
-- 🔴 **[03-23 10:12 EastMoney(CN)]** 比亚迪A股大涨超8% 总市值重回万亿
-  _【比亚迪A股大涨超8% 总市值重回万亿】3月23日，比亚迪开盘即上涨，盘中涨幅一度超8%，公司总市值重回万亿元区间，现报价111.41元/股。消息面上，3月23日晚24点，国内成品油将迎来再度上涨，新能源汽车将迎利好。_
-- 🔴 **[03-23 10:08 EastMoney(CN)]** 光伏概念股持续走强 协鑫集成等股涨停
-  _光伏概念股持续走强，正泰电源盘中创新高，协鑫集成、华民股份涨停，欧普泰涨超10%，易成新能、东方日升、连城数控、迈为股份、双良节能跟涨。_
-- 🔴 **[03-23 10:05 EastMoney(CN)]** 港股新能源汽车板块震荡上扬 零跑汽车、吉利汽车涨超5%
-  _港股新能源汽车板块震荡上扬，零跑汽车、吉利汽车涨超5%，比亚迪股份涨超3%，赛力斯涨超1%。_
-- 🔴 **[03-23 10:04 财联社(CN)]** 锂矿概念震荡反弹 富临精工涨超10%
-  _【锂矿概念震荡反弹 富临精工涨超10%】财联社3月23日电，锂矿概念盘中震荡反弹，富临精工涨超10%，天华新能、国城矿业、大中矿业、融捷股份、永兴材料等跟涨。消息面上，3月锂电产业链排产已全面回暖，叠加节后“以旧换新”政策落地和新车发布，全年锂电池需求向好。_
-- 🔴 **[03-23 09:52 EastMoney(CN)]** 比亚迪AH齐升 A股涨幅扩大至5%
-  _【比亚迪AH齐升 A股涨幅扩大至5%】比亚迪A股涨幅扩大至5%，报108.28元。港股比亚迪股份现涨超2%。_
+- 🔴 **[03-24 06:34 财联社(CN)]** 碳酸锂价格企稳回升 锂电产业链投资机遇凸显
+  _【碳酸锂价格企稳回升 锂电产业链投资机遇凸显】财联社3月24日电，自2025年11月以来，截至2026年3月23日碳酸锂期货价格已累计涨逾70%，今年以来已累计涨逾19%。作为新能源产业链核心原材料，碳酸锂市场供需格局持续优化，价格上行趋势已清晰显现，为A股锂电板块盈利修复提供了重要支撑。分析人士认为，当前碳酸锂库存维持低位，受外部因素制约供给弹性不足，储能..._
+- 🔴 **[03-24 06:31 财联社(CN)]** 周二你需要知道的隔夜全球要闻：投资者评估伊朗局势缓和的可能性，国际油价收跌10%，标普500指数创2月以来最大涨幅
+  _【周二你需要知道的隔夜全球要闻：投资者评估伊朗局势缓和的可能性，国际油价收跌10%，标普500指数创2月以来最大涨幅】
+环球市场
+1、国际油价大幅下跌，美油、布油均一度下跌逾14%。此前特朗普推迟对伊朗电力设施的打击，并称其团队已就结束冲突展开讨论，尽管伊朗多次否认。WTI5月原油期货收于每桶88.13美元，跌幅为10.28%；布伦特5月原油期货收于每桶99..._
+- 🔴 **[03-24 04:03 EastMoney(CN)]** 纳斯达克中国金龙指数收涨0.86%
+  _纳斯达克中国金龙指数收涨0.86%，小鹏汽车涨7.5%，蔚来涨7%，老虎证券、富途控股收涨超3%，阿里巴巴涨3%。_
+- 🔴 **[03-24 00:00 EastMoney(CN)]** 光伏组件新一轮涨价落地 高功率产品占比将显著提升
+  _【光伏组件新一轮涨价落地 高功率产品占比将显著提升】在多重因素作用下，去年底、今年初以来，光伏组件价格出现一轮显著上涨，有厂商宣称，本轮组件涨价幅度最高已达50%。涨价背后，一方面，以银为主的原材料涨价大幅推高组件成本；另一方面，此前“反内卷”未有效触及组件环节，组件企业亏损面扩大，有更强烈的利润诉求。_
+- 🔴 **[03-23 21:27 EastMoney(CN)]** 俄罗斯警告美国袭击伊朗核设施“后果无法挽回”
+  _【俄罗斯警告美国袭击伊朗核设施“后果无法挽回”】据今日俄罗斯通讯社报道，俄罗斯总统新闻秘书佩斯科夫23日对媒体表示，俄罗斯正在就伊朗布什尔核电站周边局势向美方发出安全警告：对核设施的袭击具有“潜在的”极端危险性，将造成“无法挽回的后果”。_
 
 ---
-*28 items from 8 sources | Last 36h | Not investment advice*
+*56 items from 11 sources | Last 36h | Not investment advice*
