@@ -1,47 +1,40 @@
 # 🌐 Global Market News Digest — 2026-04-03
-> *Generated: 2026-04-03 00:13 SGT | Sources: Bloomberg, WSJ, BBC, CNBC, NYT, 财联社, EastMoney, Sina*
+> *Generated: 2026-04-03 23:04 SGT | Sources: Bloomberg, WSJ, BBC, CNBC, NYT, 财联社, EastMoney, Sina*
 
 ---
 
 ## 🌍 Geopolitical
 🔵 **EN**
-- **[04-02 22:25 BBC Business]** Oil prices jump and shares drop after Trump threatens more Iran strikes
-- **[04-02 20:47 Bloomberg Markets]** Cirincione: Don't Expect Negotiated End to Iran War
-- **[04-02 20:43 NYT Business]** War With Iran Clarifies Trump’s Spending Priorities: The Military, Not Child Care
-- **[04-02 20:17 NYT Business]** Oil Stocks and Gas Prices Swing After Trump’s Speech on Iran
-- **[04-02 19:24 NYT Business]** Mortgage Rates Climb for 5th Week as Iran War Weighs on U.S. Housing Market
+- **[04-03 18:20 NYT Business]** Trump Requests $1.5 Trillion for Military Spending
+- **[04-03 17:45 BBC Business]** French-owned ship passes through Strait of Hormuz
+- **[04-03 13:35 BBC Business]** US jobs surge unexpectedly in March despite Iran war
+🔴 **中文**
+- **[04-04 06:58 Sina快讯]** 据叙利亚国家电视台：大马士革市区及郊区传来爆炸声，系以色列防空系统拦截伊朗导弹所致。
+- **[04-04 06:45 EastMoney]** 以色列称监测到伊朗发射的导弹 南部多地响起防空警报
+  _【以色列称监测到伊朗发射的导弹 南部多地响起防空警报】以色列国土防卫司令部当地时间4日凌晨称，监测到从伊朗向以色列发射的导弹，正在进行拦截。_
+- **[04-04 06:26 财联社(CLS)]** 周六你需要知道的隔夜全球要闻：伊朗拒绝在伊斯兰堡与美方会面，美军两架战机接连坠毁；多国股市因假期休市
+- **[04-04 06:11 财联社(CLS)]** 伊朗公布击中美军A-10攻击机瞬间画面
 
 ## 📊 Macro & Policy
 🔵 **EN**
-- **[04-02 20:52 Bloomberg Markets]** British Columbia Gets Fifth Credit Downgrade From S&amp;P Since 2021
-- **[04-02 20:08 CNBC Top News]** Blue Owl caps private credit funds redemptions at 5% after steep request levels
+- **[04-03 19:58 NYT Business]** Strong Jobs Numbers Make the Fed’s Job Easier
+- **[04-03 17:47 NYT Business]** March Jobs Report Shows Stronger U.S. Market Than Expected With 178,000 New Positions
+- **[04-03 14:21 Bloomberg Markets]** US Adds 178,000 Jobs in March, Unemployment Rate Falls to 4.3%
+- **[04-03 13:47 Bloomberg Markets]** NEC’s Hassett on Jobs Report, Oil Exports, US Economy
+- **[04-03 13:28 Bloomberg Markets]** NEC’s Hassett Sees Positive Momentum Behind Jobs Report
 
 ## 🇺🇸 United States
 🔵 **EN**
-- **[04-02 22:42 NYT Business]** Rival Nations Seize On Choke Points to Counter Trump
-- **[04-02 22:06 BBC Business]** Pharmaceuticals face 100% tariffs in US - unless firms strike a deal
-- **[04-02 19:35 NYT Business]** Trump Revamps Metal and Pharmaceutical Tariffs
-- **[04-02 09:51 BBC Business]** A year on: Four ways Trump's tariffs have changed the global economy
-🔴 **中文**
-- **[04-03 08:09 EastMoney]** 美联储威廉姆斯：货币政策“处于有利地位”以管理风险
-  _【美联储威廉姆斯：货币政策“处于有利地位”以管理风险】美联储威廉姆斯称，不确定性及双向风险均有所上升，货币政策“处于有利地位”以管理风险；美联储将不得不关注数据，以观察风险如何演变。威廉姆斯表示，判断能源价格飙升对就业市场数据的影响为时尚早；经济处于低招聘、低解雇、失业率稳定的状态。_
+- **[04-03 19:00 Bloomberg Markets]** US Judge Denies Pirro Motion to Revive Quashed Fed Subpoenas
+- **[04-03 18:23 NYT Business]** Big Banks Seeking a Piece of SpaceX’s I.P.O. Must Subscribe to Elon Musk’s Grok
 
-## 🇨🇳 China & Hong Kong
-🔵 **EN**
-- **[04-02 02:33 CNBC Top News]** Huawei's cloud computing revenue dropped in 2025 as Chinese AI lagged U.S. rivals
+## 🇪🇺 Europe
 🔴 **中文**
-- **[04-03 08:11 Sina快讯]** 【新乳业：已向香港联交所递交H股发行上市申请】新乳业(002946)4月3日早间公告，公司4月2日向香港联交所递交了发行H股股票并在香港联交所主板挂牌上市的申请，并于同日在香港联交所网站刊登了此次发行上市的申请材料。
-
-## 🇯🇵 Japan
-🔵 **EN**
-- **[04-02 23:00 Bloomberg Markets]** Japanese Firms Reduce Share Buybacks for First Time Since 2020
+- **[04-04 06:58 Sina快讯]** 【欧元、英镑在非农日跌约0.2%，土耳其里拉继续创历史新低】周五（4月3日）纽约尾盘，欧元兑美元跌0.18%，报1.1518，本周累计上涨0.09%，周二和周三持续走高。英镑兑美元跌0.17%，报1.3204，本周累跌0.41%，周二和周三...
 
 ## 🌐 Other Markets
 🔵 **EN**
-- **[04-02 23:00 Bloomberg Markets]** Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out
-- **[04-02 22:29 Bloomberg Markets]** Asian Shares Open Higher After US Stocks Rebound: Markets Wrap
-- **[04-02 22:11 Bloomberg Markets]** Stock Rally Hits Wall as Oil Holds Gains | The Close 4/2/2026
-- **[04-02 12:14 CNBC Top News]** Stocks making the biggest moves premarket: Exxon Mobil, Carnival, Delta, General Motors and more
+- **[04-03 13:05 Bloomberg Markets]** Labor Market ‘Stable, With a Lot of Volatility,’ Economist Roth Says
 
 ---
-*39 items from 7 sources | Last 24h | Not investment advice*
+*33 items from 6 sources | Last 24h | Not investment advice*
