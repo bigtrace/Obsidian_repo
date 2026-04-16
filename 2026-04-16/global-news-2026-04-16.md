@@ -1,38 +1,45 @@
 # 🌐 Global Market News Digest — 2026-04-16
-> *Generated: 2026-04-16 00:12 SGT | Sources: Bloomberg, WSJ, BBC, CNBC, NYT, 财联社, EastMoney, Sina*
+> *Generated: 2026-04-16 23:10 SGT | Sources: Bloomberg, WSJ, BBC, CNBC, NYT, 财联社, EastMoney, Sina*
 
 ---
 
 ## 🌍 Geopolitical
 🔵 **EN**
-- **[04-15 23:30 Bloomberg Markets]** Taiwan Insurers’ Hedging Pivot Cements Global Bond Prowess
-- **[04-15 22:18 Bloomberg Markets]** ECB Officials Are Leaning Toward April Rate Hold
-- **[04-15 22:13 Bloomberg Markets]** Asian Stocks Rise, US Hits Record on Iran Talks: Markets Wrap
-- **[04-15 22:02 Bloomberg Markets]** Oil Steady on Signs US, Iran Working Toward Ceasefire Extension
-- **[04-15 20:13 NYT Business]** S&P 500 Hits Record High as Stock Market Looks Beyond Iran War
-- **[04-15 19:02 NYT Business]** Kevin Warsh, Trump’s Pick for Fed Chair, Discloses Vast Wealth Ahead of Confirmation Hearing
-
-## 📊 Macro & Policy
-🔵 **EN**
-- **[04-15 21:51 BBC Business]** Bank boss tells BBC he won't rush interest rate rises
+- **[04-16 22:19 Bloomberg Markets]** Gold Heads for Fourth Weekly Gain on Optimism for US-Iran Truce
+- **[04-16 22:15 Bloomberg Markets]** Crude Falls on Optimism Over Iran Ceasefire Deal: Markets Wrap
+- **[04-16 22:01 Bloomberg Markets]** Oil Drops as Trump Strikes Upbeat Tone on Outlook for Iran Deal
+- **[04-16 21:23 NYT Business]** Pentagon Seeks Help From Ford and G.M.
+- **[04-16 20:39 BBC Business]** How could the Iran war affect fizzy drinks in the UK?
+- **[04-16 20:20 NYT Business]** Despite Cease-Fire, Iran’s Hackers Haven’t Logged Off
 
 ## 🇺🇸 United States
 🔵 **EN**
-- **[04-15 23:22 Bloomberg Markets]** "Significant" Fire at Viva Energy’s Geelong Refinery
-- **[04-15 21:31 CNBC Top News]** Goldman Sachs bond traders stumbled as Wall Street rivals thrived: 'A fire is being lit under' them
-- **[04-15 21:30 BBC Business]** Social media leaders called to Downing Street over children's safety
-- **[04-15 21:30 NYT Business]** U.K.’s Starmer Summons U.S. Social Media Companies Over Child Safety Online
-- **[04-15 19:27 NYT Business]** Trump’s Quest for More Sway Over Fed Faces Fresh Hurdles
-- **[04-15 19:06 CNBC Top News]** Regulators are reportedly zeroing in on suspicious trades ahead of market-moving Trump post
+- **[04-16 21:59 BBC Business]** Netflix co-founder Reed Hastings to step down as chairman
+- **[04-16 21:18 Bloomberg Markets]** Netflix Earnings Forecast Misses, Reed Hastings Steps Down
+- **[04-16 18:49 BBC Business]** Is Trump meeting the moment for US conservatives?
+- **[04-16 11:08 CNBC Top News]** Regulators are reportedly zeroing in on suspicious trades ahead of market-moving Trump post
+🔴 **中文**
+- **[04-17 07:07 Sina快讯]** 【蓝佛安出席2026年二十国集团财长和央行行长第一次会议并举行多场双边会见】2026年4月16日，二十国集团（G20）主席国美国在华盛顿举行今年首次G20财长和央行行长会议。会议主要就全球宏观经济形势、全球增长、全球失衡等议题进行了讨论。财...
+- **[04-17 07:06 EastMoney]** 美国务院：以黎停火期限可延长 以色列保留“自卫权利”
+  _【美国务院：以黎停火期限可延长 以色列保留“自卫权利”】以色列和黎巴嫩为期10天的停火已于美东时间16日17时生效。美国国务院当天发表声明说，以黎停火期限可以延长，以色列保留在停火期间“采取一切必要自卫措施”的权利。_
+
+## 🇪🇺 Europe
+🔵 **EN**
+- **[04-16 17:05 BBC Business]** No issues with UK fuel supply, says Reeves
 
 ## 🇨🇳 China & Hong Kong
 🔴 **中文**
-- **[04-16 08:12 Sina快讯]** 【特朗普政府推动各国签署 “贸易优先于援助” 宣言】据报道，特朗普政府正推动世界各国签署一项联合宣言，主张 “贸易优先于援助”，并明确摒弃美国长期以来作为向发展中国家提供人道主义援助及其他支持的主要大国角色。美国国务卿马尔科・鲁比奥在周三致...
+- **[04-17 07:08 Sina快讯]** 【中国驻美国大使谢锋参观礼来公司总部】中国驻美国大使馆消息，2026年4月13日，中国驻美国大使谢锋在访问美国印第安纳州期间，应邀参观礼来公司总部并会见礼来公司董事长兼首席执行官戴文睿，双方就中美医药合作、礼来在华经营情况等交换意见。谢锋积...
+- **[04-17 07:07 Sina快讯]** 【4.0级、3.3级，四川内江市资中县连发两次地震】中国地震台网正式测定：04月17日06时56分在四川内江市资中县（北纬29.65度，东经104.86度）发生4.0级地震，震源深度7千米。17日6时59分在四川内江市资中县（北纬29.66...
+- **[04-17 06:56 EastMoney]** 美国投资者重返中国股市！三个月净流入140亿美元、创三年多新高
+  _【美国投资者重返中国股市！三个月净流入140亿美元、创三年多新高】美国投资者或正重返中国股市。法国巴黎银行最新研究报告显示，美国投资者对中国内地及香港股市的情绪近期“明显转向积极”。2025年12月至2026年2月，合计约140亿美元资金流入中国内地及香港市场，创下三年多以来连续三个月资金净流入的最..._
 
 ## 🌐 Other Markets
 🔵 **EN**
-- **[04-15 22:40 NYT Business]** Live Nation and Ticketmaster Illegally Monopolized Ticketing Market, Jury Finds
-- **[04-15 22:33 Bloomberg Markets]** Plata Hits $5 Billion Valuation in Bicycle Capital-Led Funding
+- **[04-16 22:09 Bloomberg Markets]** Netflix Misses Estimate, Stocks Hold Record Highs | The Close 4/16/2026
+- **[04-16 21:47 NYT Business]** Reed Hastings Will Leave Netflix as Board Chairman
+- **[04-16 21:16 Bloomberg Markets]** SpaceX Moves Up Vesting Schedule for Employee Shares Before IPO
+- **[04-16 20:58 Bloomberg Markets]** MNTN CEO: Netflix $10B Ad Revenue Est. 'Laughably Small'
 
 ---
-*42 items from 7 sources | Last 24h | Not investment advice*
+*40 items from 7 sources | Last 24h | Not investment advice*
